@@ -20,24 +20,24 @@
                     <form action="" class="col s12 form">
                         <div class="input-field col s12 l4">
                             <i class="material-icons prefix">person</i>
-                            <input type="text" id="from/to" class="validate">
-                            <label for="first_name">from/to</label>
+                            <input type="text" id="fromTo" class="validate">
+                            <label for="fromTo">from/to</label>
                         </div>
                         <div class="input-field col s12 l4 ">
                             <i class="material-icons prefix">details</i>
                             <input type="text" id="details" class="validate">
-                            <label for="first_name">details</label>
+                            <label for="details">details</label>
                         </div>
                         <div class="input-field col s12 l4">
                             <i class="material-icons prefix">number</i>
-                            <input type="number" id="age" class="validate">
-                            <label for="age">amount</label>
+                            <input type="number" id="amount" class="validate">
+                            <label for="amount">amount</label>
                         </div>
                         <div class="input-field col s12 l4 offset-l4">
-                            <select>
+                            <select id="type">
                               <option value="" disabled selected>Choose your option</option>
                               <option value="payment">Payment</option>
-                              <option value="invocie">Invoice</option>
+                              <option value="invoice">Invoice</option>
                             </select>
                             <label>Materialize Select</label>
                           </div> 
@@ -48,7 +48,7 @@
                 </div>     
             </div>
         </div>
-    <script type="module" src="./app.js"></script>
+    
      <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
@@ -57,5 +57,6 @@
         $('select').formSelect();
     });
     </script>
+    <script type="module" src="./app.js"></script>
 </body>
 </html>
